@@ -1,0 +1,72 @@
+.main_container {
+    max-width: 100vw;
+    min-height: 90vh;
+}
+
+:root {
+    --active-menu-background:"black";
+}
+
+.box {
+    align-items: center;
+    height: 400px;
+    box-shadow: -2px 0px 72px 35px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: -2px 0px 72px 35px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: -2px 0px 72px 35px rgba(0, 0, 0, 0.09);
+}
+
+.multi-select {
+    /* --input-width: 350px; */
+    margin-top: 30px;
+}
+
+ /* .MuiInputLabel-root {
+     color: #fff !important;
+ } */
+
+ .msl-arrow-icn ,.msl-arrow-btn{
+    background-color: #cdcdcd;
+    border-radius: 50%;
+ }
+
+ .msl-clear-btn {
+    background-color: #cdcdcd;
+        border-radius: 50%;
+        margin-right: 3px;
+ }
+
+ .msl-grp-title,
+ .msl-options .msl-option {
+    /* color: white;
+    background-color: #3bb19b; */
+    color: #3bb19b;
+    background-color:white ;
+ }
+
+ .msl-chip,
+ .msl-single-value {
+    color: white;
+        background-color: #3bb19b;
+        font-size: 0.8rem;
+ }
+
+ .msl-chip-delete {
+    max-height: 13px;
+    max-width: 13px;
+    min-height: 0px !important;
+        min-width: 0px !important;
+ }
+
+ .msl-close-icn {
+    height: 6.5px;
+    width: 6.5px;
+ }
+
+ .displayListing {
+    margin:0;
+    padding: 0;
+ }
+ .image {
+     height: 300px !important;
+     width: 300px !important;
+ }
